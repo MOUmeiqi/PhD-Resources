@@ -1,0 +1,6 @@
+
+
+C:/intelFPGA_lite/18.1/projects/USE_THIS_sockit_DCC_20141217/V/FIR_3MHZ_low.v
+
+Jan 14 12PM:29:43>: Megafunction FIR Compiler II v13.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

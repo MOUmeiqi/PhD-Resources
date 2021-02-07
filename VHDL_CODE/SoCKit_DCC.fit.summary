@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sun Dec 20 21:19:11 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : SoCKit_DCC
+Top-level Entity Name : SoCKit_DCC
+Family : Cyclone V
+Device : 5CSXFC6D6F31C8ES
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 648 / 41,910 ( 2 % )
+Total registers : 1427
+Total pins : 100 / 499 ( 20 % )
+Total virtual pins : 0
+Total block memory bits : 71,488 / 5,662,720 ( 1 % )
+Total RAM Blocks : 10 / 553 ( 2 % )
+Total DSP Blocks : 2 / 112 ( 2 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )
