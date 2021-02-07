@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="CD74HC4067SM96">
+<smd name="I7" x="-0.1" y="-0.675" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I6" x="-0.1" y="-1.325" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I5" x="-0.1" y="-1.975" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I4" x="-0.1" y="-2.625" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I3" x="-0.1" y="-3.275" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I2" x="-0.1" y="-3.925" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I1" x="-0.1" y="-4.575" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I0" x="-0.1" y="-5.225" dx="1.2" dy="0.22" layer="16"/>
+<smd name="S0" x="-0.1" y="-5.875" dx="1.2" dy="0.22" layer="16"/>
+<smd name="S1" x="-0.1" y="-6.525" dx="1.2" dy="0.22" layer="16"/>
+<smd name="GND" x="-0.1" y="-7.175" dx="1.2" dy="0.22" layer="16"/>
+<smd name="IN/OUT" x="-0.1" y="-0.025" dx="1.2" dy="0.22" layer="16"/>
+<wire x1="0" y1="0" x2="-0.05" y2="0" width="0.127" layer="16"/>
+<wire x1="-0.05" y1="0" x2="-0.05" y2="-7.2" width="0.127" layer="1"/>
+<smd name="VCC" x="7.4" y="-0.025" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I8" x="7.4" y="-0.675" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I9" x="7.4" y="-1.325" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I10" x="7.4" y="-1.975" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I11" x="7.4" y="-2.625" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I12" x="7.4" y="-3.275" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I13" x="7.4" y="-3.925" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I14" x="7.4" y="-4.575" dx="1.2" dy="0.22" layer="16"/>
+<smd name="I15" x="7.4" y="-5.225" dx="1.2" dy="0.22" layer="16"/>
+<smd name="ENOT" x="7.4" y="-5.875" dx="1.2" dy="0.22" layer="16"/>
+<smd name="S2" x="7.4" y="-6.525" dx="1.2" dy="0.22" layer="16"/>
+<smd name="S3" x="7.4" y="-7.175" dx="1.2" dy="0.22" layer="16"/>
+<wire x1="0" y1="-0.05" x2="7.45" y2="-0.05" width="0.127" layer="1"/>
+<wire x1="7.45" y1="-0.05" x2="7.45" y2="0" width="0.127" layer="1"/>
+<wire x1="7.45" y1="-0.05" x2="7.45" y2="-7.225" width="0.127" layer="1"/>
+<wire x1="7.45" y1="-7.225" x2="0" y2="-7.225" width="0.127" layer="1"/>
+<wire x1="0" y1="-7.225" x2="0" y2="-7.3" width="0.127" layer="1"/>
+<text x="-0.125" y="0.775" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.225" y="-9" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CD74HC4067SM96">
+<pin name="IN/OUT" x="0" y="0" length="middle"/>
+<pin name="I7" x="0" y="-2.54" length="middle"/>
+<pin name="I6" x="0" y="-5.08" length="middle"/>
+<pin name="I5" x="0" y="-7.62" length="middle"/>
+<pin name="I4" x="0" y="-10.16" length="middle"/>
+<pin name="I3" x="0" y="-12.7" length="middle"/>
+<pin name="I2" x="0" y="-15.24" length="middle"/>
+<pin name="I1" x="0" y="-17.78" length="middle"/>
+<pin name="I0" x="0" y="-20.32" length="middle"/>
+<pin name="S0" x="0" y="-22.86" length="middle"/>
+<pin name="S1" x="0" y="-25.4" length="middle"/>
+<pin name="GND" x="0" y="-27.94" length="middle"/>
+<pin name="S3" x="27.94" y="-27.94" length="middle" rot="R180"/>
+<pin name="S2" x="27.94" y="-25.4" length="middle" rot="R180"/>
+<pin name="ENOT" x="27.94" y="-22.86" length="middle" rot="R180"/>
+<pin name="I15" x="27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="I14" x="27.94" y="-17.78" length="middle" rot="R180"/>
+<pin name="I13" x="27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="I12" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="I11" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="I10" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="I9" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="I8" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="27.94" y="0" length="middle" rot="R180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-30.48" x2="22.86" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-30.48" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CD74HC4067SM96" prefix="CD74HC4067">
+<gates>
+<gate name="G$1" symbol="CD74HC4067SM96" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CD74HC4067SM96">
+<connects>
+<connect gate="G$1" pin="ENOT" pad="ENOT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="I0" pad="I0"/>
+<connect gate="G$1" pin="I1" pad="I1"/>
+<connect gate="G$1" pin="I10" pad="I10"/>
+<connect gate="G$1" pin="I11" pad="I11"/>
+<connect gate="G$1" pin="I12" pad="I12"/>
+<connect gate="G$1" pin="I13" pad="I13"/>
+<connect gate="G$1" pin="I14" pad="I14"/>
+<connect gate="G$1" pin="I15" pad="I15"/>
+<connect gate="G$1" pin="I2" pad="I2"/>
+<connect gate="G$1" pin="I3" pad="I3"/>
+<connect gate="G$1" pin="I4" pad="I4"/>
+<connect gate="G$1" pin="I5" pad="I5"/>
+<connect gate="G$1" pin="I6" pad="I6"/>
+<connect gate="G$1" pin="I7" pad="I7"/>
+<connect gate="G$1" pin="I8" pad="I8"/>
+<connect gate="G$1" pin="I9" pad="I9"/>
+<connect gate="G$1" pin="IN/OUT" pad="IN/OUT"/>
+<connect gate="G$1" pin="S0" pad="S0"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
