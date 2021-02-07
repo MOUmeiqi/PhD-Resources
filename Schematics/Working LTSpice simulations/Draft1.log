@@ -1,0 +1,34 @@
+Circuit: * H:\Working LTSpice simulations\Draft1.asc
+
+u3:vx1: Missing value, assumed 0V @ DC
+u2:vx1: Missing value, assumed 0V @ DC
+u1:vx1: Missing value, assumed 0V @ DC
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.03061e-009 to 4.03061e-009
+Heightened Def Con from 0.000405289 to 0.000405292
+Heightened Def Con from 0.000485347 to 0.00048535
+Heightened Def Con from 0.00101535 to 0.00101535
+Heightened Def Con from 0.00123535 to 0.00123535
+Heightened Def Con from 0.00151529 to 0.00151529
+Heightened Def Con from 0.00154529 to 0.00154529
+Heightened Def Con from 0.00155535 to 0.00155535
+Heightened Def Con from 0.00177543 to 0.00177543
+
+Date: Mon May 29 14:23:33 2017
+Total elapsed time: 10.651 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 112326
+traniter = 112300
+tranpoints = 26279
+accept = 18402
+rejected = 7886
+matrix size = 215
+fillins = 255
+solver = Normal
+Thread vector: 21.8/14.3[4] 8.3/4.9[4] 6.6/4.4[4] 4.0/2.9[2]  2592/500
+Matrix Compiler1: 24.52 KB object code size  14.7/12.7/[7.5]
+Matrix Compiler2: 21.31 KB object code size  6.9/8.6/[3.4]
+

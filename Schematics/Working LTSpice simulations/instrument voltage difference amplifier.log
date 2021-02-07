@@ -1,0 +1,58 @@
+Circuit: * H:\Working LTSpice simulations\instrument voltage difference amplifier.asc
+
+u3:vx1: Missing value, assumed 0V @ DC
+u2:vx1: Missing value, assumed 0V @ DC
+u1:vx1: Missing value, assumed 0V @ DC
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 18.9394%
+Source Step = 26.5152%
+Source Step = 34.0909%
+Source Step = 41.6667%
+Source Step = 49.2424%
+vernier = 0.375
+Source Step = 58.3333%
+Source Step = 69.697%
+Source Step = 81.0606%
+Source Step = 92.4242%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon May 29 14:45:09 2017
+Total elapsed time: 6.319 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2565
+traniter = 264
+tranpoints = 133
+accept = 131
+rejected = 2
+matrix size = 215
+fillins = 278
+solver = Normal
+
