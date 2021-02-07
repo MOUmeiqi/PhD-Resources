@@ -5,7 +5,7 @@ Source code repository for PhD on OCDM-aEITS
 This repository (repo) contains the source code and some experimental results acquired during research of the thesis titled "Absolute Electrical Impedance Tomography and Spectroscopy - An Orthogonal Chirp Division Multiplexed (OCDM) Approach"
 This thesis was authored by: Ezra Luke America and presented to the University of Cape Town for fulfilment of a Doctorate of Philosophy in Electrical Engineering.
 
-The repo contains four folders:
+The repo separated into four streams:
 1) Codes
 2) Misc. Experimental Results
 3) Schematics
